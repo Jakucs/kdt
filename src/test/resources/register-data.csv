@@ -1,0 +1,10 @@
+# Érvényes regisztrációs tesztadatok
+email,password,confirmPassword
+test1@gmail.com,Ripazha4,Ripazha4
+test2@gmail.com,Ripazha5,Ripazha5
+test3@gmail.com,Ripazha6,Ripazha6
+
+# Érvénytelen  tesztadatok
+test1gmail.com,Ripazha4,Ripazha4
+test2@gmail.com,Ripazha,Ripazha
+test3@gmail.com,Ripazha4,Ripazha5

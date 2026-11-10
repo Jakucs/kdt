@@ -3,11 +3,15 @@ package pages;
 import org.openqa.selenium.By;
 
 public class RegisterPage {
-        By signUpButton = By.xpath("//button[text()='Sign Up']");
+        public By signUpButton = By.xpath("//button[text()='Sign Up']");
 
-        By emailField = By.id("email");
+        public By emailField = By.id("email");
 
-        By passwordField = By.id("password");
+        public By passwordField = By.id("password");
 
-        By passwordConfirmField = By.id("confirm");
+        public By passwordConfirmField = By.id("confirm");
+
+        public By lowerSignUpButton = By.cssSelector("button[type='submit']");
+
+        public By logoutButton = By.xpath("//button[text()='Logout']");
 }
